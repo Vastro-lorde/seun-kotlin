@@ -14,7 +14,8 @@ fun main() {
     operate.fillXs()
     operate.listXs()
     operate.setX()
-    operate.check(7)
-    operate.deepCheck(seun.country, copySeun)
+    println(operate.check(7))
+    println(operate.deepCheck(seun.country, copySeun))
+    println(operate.equals(operate))
 
 }

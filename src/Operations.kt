@@ -32,4 +32,14 @@ class Operations {
     fun deepCheck( first: String, second: String) : Boolean{
         return first === second
     }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other){
+            return true
+        }
+        if (other is Operations){
+            return this.x == other.x && this.xs === other.xs
+        }
+        return false
+    }
 }
