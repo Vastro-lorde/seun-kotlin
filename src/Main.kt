@@ -15,6 +15,6 @@ fun main() {
     operate.listXs()
     operate.setX()
     operate.check(7)
-    operate.deepCheck(seun.country, seun.country)
+    operate.deepCheck(seun.country, copySeun)
 
 }
