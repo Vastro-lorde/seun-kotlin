@@ -1,8 +1,8 @@
 import java.util.Scanner
 
 class Operations {
-    var x: Int = 0;
-    var xs = ArrayList<String>();
+    var x: Int = 0
+    var xs = ArrayList<String>()
 
     fun fillXs() {
         xs.add("first")

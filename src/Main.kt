@@ -2,6 +2,7 @@ fun main() {
     println("Seun Omatsola")
     val seun = User("Seun Omatsola", 29)
     seun.describe()
+    val copySeun = seun.country
 
     println(seun.country)
     seun.country = "England"
@@ -13,5 +14,7 @@ fun main() {
     operate.fillXs()
     operate.listXs()
     operate.setX()
+    operate.check(7)
+    operate.deepCheck(seun.country, seun.country)
 
 }
